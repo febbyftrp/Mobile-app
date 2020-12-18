@@ -3,9 +3,9 @@ package mmu.edu.my.recyclerview;
 public class Version {
     private String name;
     private String description;
-    private String icon;
+    private int icon;
 
-    public Version(String name, String description, String icon) {
+    public Version(String name, String description, int icon) {
         this.name = name;
         this.description = description;
         this.icon = icon;
@@ -19,7 +19,7 @@ public class Version {
         return description;
     }
 
-    public String getIcon() {
+    public int getIcon() {
         return icon;
     }
 }
